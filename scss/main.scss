@@ -1,0 +1,87 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background: #F6F6F6;
+}
+
+ul[class],
+ol[class] {
+  list-style: none;
+}
+:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+article > * + * {
+  margin-top: 1em;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+.body_div {
+  width: 100%;
+  height: 100vh;
+  background: #F6F6F6;
+  margin: 5em 0;
+  position: relative;
+  padding: 50px 25px
+}
+
+* {
+  font-family: 'Roboto Slab', serif;
+}
+
+.title_block {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 2em;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@import "_header";
+@import "_events";
+@import "_experience";
+@import "_documents";
