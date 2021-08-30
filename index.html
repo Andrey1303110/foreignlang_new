@@ -14,7 +14,9 @@
 
     <title>Document</title>
 </head>
+
 <body>
+
     <div class="head_div">
         <div class="head_block">
             <div class="block_name">
@@ -125,6 +127,7 @@
             <p>Професіогенез Марценюк О.Г.</p>
         </a>
     </div>
+
     <div class="body_div" id="documents">
         <p class="title_block">Діяльність</p>
         <a class="docx" href="/docs/documents/Звіт за 2020-2021.docx" download="">
@@ -143,13 +146,30 @@
 
     <div class="body_div" id="staff">
         <p class="title_block">Склад</p>
+        <div class="flex_row">
+            <div class="photo">
+                <img src="/img/photo.png" alt="photo">
+            </div>
+            <div class="text_for_block">
+                <p>Голова обласного методичного об’єднання викладачів іноземних мов закладів вищої та фахової передвищої освіти Вінницької області</p>
+                <p>Кандидат педагогічних наук, доцент кафедри германської та слов’янської філології</p>
+                <p>Марценюк Олена Георгіївна</p>
+                <p>Контакти</p>
+                <p>097-211-64-54</p>
+                <p>heorhiivna@gmail.com</p>
+            </div>
+        </div>
 
+        <div class="down text_for_block">
+
+        </div>
     </div>
+
     <div class="body_div" id="contacts">
         <p class="title_block">Контакти</p>
     </div>
-    </div>
-    
+
+
     <script type="text/javascript" src="/slick/slick.js"></script>
     <script>
         $(document).ready(function(){
@@ -193,6 +213,7 @@
             $(".slider_12 video").css("transform", "translateY(-50%)");
         });
     </script>
+
     <script>
         $(".docx").each(function(){
             this.download = this.children[0].innerText + ".docx";

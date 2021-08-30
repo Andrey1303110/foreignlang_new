@@ -446,3 +446,54 @@ select {
   padding: 0 10%;
   font-size: 1.3em;
 }
+
+#staff .flex_row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 5%;
+}
+
+#staff .flex_row .photo {
+  width: 40%;
+}
+
+#staff .flex_row .photo img {
+  border-radius: 5%;
+}
+
+#staff .flex_row .text_for_block {
+  width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  text-align: center;
+}
+
+#staff .flex_row .text_for_block:nth-child(3) {
+  width: 100%;
+}
+
+#staff .down.text_for_block {
+  width: 100%;
+}

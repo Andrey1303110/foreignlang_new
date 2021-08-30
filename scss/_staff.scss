@@ -1,0 +1,30 @@
+#staff {
+    .flex_row {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 5%;
+        .photo {
+            width: 40%;
+            img {
+                border-radius: 5%;
+            }
+        }
+        .text_for_block {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            align-content: stretch;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            align-items: flex-start;
+            text-align: center;
+            &:nth-child(3) {
+                width: 100%;
+            }
+        }
+    }
+    .down.text_for_block {
+        width: 100%;
+    }
+}
