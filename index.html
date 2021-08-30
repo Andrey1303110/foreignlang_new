@@ -17,6 +17,8 @@
 
 <body>
 
+    <div id="main_bg"></div>
+
     <div class="head_div">
         <div class="head_block">
             <div class="block_name">
@@ -211,6 +213,13 @@
             let normalWidth = $(".slider_11").css("width");
             $(".slider_12 video").css("width", normalWidth);
             $(".slider_12 video").css("transform", "translateY(-50%)");
+
+            $('.head_div').hover(function(){
+                $('#main_bg').css("filter", "opacity(0)");
+            });
+            $('.body_div').hover(function(){
+                $('#main_bg').css("filter", "opacity(.05)");
+            });
         });
     </script>
 
