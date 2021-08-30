@@ -7,7 +7,7 @@
         .photo {
             width: 40%;
             img {
-                border-radius: 5%;
+                border-radius: 15px;
             }
         }
         .text_for_block {
@@ -19,7 +19,7 @@
             justify-content: space-between;
             align-items: flex-start;
             text-align: center;
-            &:nth-child(3) {
+            p:nth-child(3) {
                 width: 100%;
             }
         }
