@@ -1,0 +1,36 @@
+#contacts {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    img {
+        width: 40px;
+        display: inline;
+        position: relative;
+        transform: translateY(15px);
+        margin: 0 10px 0 30px;
+        &.fax {
+            width: 60px;
+        }
+    }
+    .up_block {
+        margin-top: 5%;
+        font-size: 1.5em;
+    }
+    .down_block {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-evenly;
+        font-size: 1.2em;
+        div {
+            width: 40%;
+        }
+        p {
+            &:nth-child(3) {
+                font-weight: bold;
+                font-size: 1.35em;
+            }
+        }
+    }
+}
