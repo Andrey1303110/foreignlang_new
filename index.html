@@ -218,8 +218,19 @@
                 $('#main_bg').css("filter", "opacity(0)");
             });
             $('.body_div').hover(function(){
-                $('#main_bg').css("filter", "opacity(.05)");
+                $('#main_bg').css("filter", "opacity(.075)");
             });
+            function changeBG() {
+                let bg = ["english.jpg", "germany.jpg", "italy.jpg", "spain.jpg"];
+                let i = Math.floor(Math.random() * 4);
+                console.log(i);
+                console.log(bg[i]);
+                $('#main_bg').css("filter", "opacity(0)");
+                $('#main_bg').css("background-image", "url(/img/bg/" + bg[i] + ")");
+                $('#main_bg').css("filter", "opacity(.075)");
+            }
+            changeBG();
+            setInterval(changeBG, 10000);
         });
     </script>
 
