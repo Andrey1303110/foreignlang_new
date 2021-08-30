@@ -21,6 +21,15 @@
             text-align: center;
             p:nth-child(3) {
                 width: 100%;
+                font-weight: bold;
+                font-size: 1.5em;
+            }
+            img {
+                width: 40px;
+                display: inline;
+                position: relative;
+                transform: translateY(15px);
+                margin-right: 20px;
             }
         }
     }

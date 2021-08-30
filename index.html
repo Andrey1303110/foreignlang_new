@@ -157,8 +157,8 @@
                 <p>Кандидат педагогічних наук, доцент кафедри германської та слов’янської філології</p>
                 <p>Марценюк Олена Георгіївна</p>
                 <p>Контакти</p>
-                <p>097-211-64-54</p>
-                <p>heorhiivna@gmail.com</p>
+                <p><a href="tel:+380972116454"><img class="contact_icons" src="/img/phone.png" alt="phone" srcset=""> 097-211-64-54</a></p>
+                <p><a href="mailto:heorhiivna@gmail.com"><img class="contact_icons" src="/img/gmail.png" alt="gmail" srcset=""> heorhiivna@gmail.com</a></p>
             </div>
         </div>
 
@@ -223,8 +223,6 @@
             function changeBG() {
                 let bg = ["english.jpg", "germany.jpg", "italy.jpg", "spain.jpg"];
                 let i = Math.floor(Math.random() * 4);
-                console.log(i);
-                console.log(bg[i]);
                 $('#main_bg').css("filter", "opacity(0)");
                 $('#main_bg').css("background-image", "url(/img/bg/" + bg[i] + ")");
                 $('#main_bg').css("filter", "opacity(.075)");
@@ -232,6 +230,13 @@
             changeBG();
             setInterval(changeBG, 10000);
         });
+
+        $(".contact_icons").mouseenter(function(){
+            this.src=this.src.replace("png","gif");
+        })
+        $(".contact_icons").mouseleave(function(){
+            this.src=this.src.replace("gif","png");
+        })
     </script>
 
     <script>
