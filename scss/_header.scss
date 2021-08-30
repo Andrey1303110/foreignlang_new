@@ -74,27 +74,41 @@
         width: 30%;
         .block_name .for_bg {
             background-image: url(../img/contacts.png);
-            background-size: contain;
+            background-size: 110%;
             background-repeat: no-repeat;
-            background-position: center;
+            background-position: 50%;
+            transition: .25s ease-in-out;
+            &:hover {
+                transition: 1s ease-in-out;
+                background-size: 70%;
+            }
         }
     }
     &:nth-child(6) {
         width: 50%;
         .block_name .for_bg {
             background-image: url(../img/experience.jpg);
-            background-size: 75%;
+            background-size: 105%;
             background-repeat: no-repeat;
             background-position: center;
+            &:hover {
+                background-size: 65%;
+                transition: 1s ease-in-out;
+            }
         }
     }
     &:nth-child(7) {
         width: 50%;
         .block_name .for_bg {
-            background-image: url(../img/documents.jpg);
-            background-size: cover;
+            background-image: url(../img/documents.png);
+            background-size: 100%;
             background-repeat: no-repeat;
-            background-position: 50% 15%;
+            background-position: 50% 5%;
+            transition: 1s ease-in-out;
+            &:hover {
+                background-position: 50% 100%;
+                background-size: 50%;
+            }
         }
     }
 }

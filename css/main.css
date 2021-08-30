@@ -216,9 +216,17 @@ a {
 
 .head_block:nth-child(5) .block_name .for_bg {
   background-image: url(../img/contacts.png);
-  background-size: contain;
+  background-size: 110%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: 50%;
+  -webkit-transition: .25s ease-in-out;
+  transition: .25s ease-in-out;
+}
+
+.head_block:nth-child(5) .block_name .for_bg:hover {
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+  background-size: 70%;
 }
 
 .head_block:nth-child(6) {
@@ -227,9 +235,15 @@ a {
 
 .head_block:nth-child(6) .block_name .for_bg {
   background-image: url(../img/experience.jpg);
-  background-size: 75%;
+  background-size: 105%;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.head_block:nth-child(6) .block_name .for_bg:hover {
+  background-size: 65%;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
 }
 
 .head_block:nth-child(7) {
@@ -237,10 +251,17 @@ a {
 }
 
 .head_block:nth-child(7) .block_name .for_bg {
-  background-image: url(../img/documents.jpg);
-  background-size: cover;
+  background-image: url(../img/documents.png);
+  background-size: 100%;
   background-repeat: no-repeat;
-  background-position: 50% 15%;
+  background-position: 50% 5%;
+  -webkit-transition: 1s ease-in-out;
+  transition: 1s ease-in-out;
+}
+
+.head_block:nth-child(7) .block_name .for_bg:hover {
+  background-position: 50% 100%;
+  background-size: 50%;
 }
 
 .block_name {
