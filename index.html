@@ -10,8 +10,8 @@
     <link rel="stylesheet" type="text/css" href="/slick/slick-theme.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <link rel="preload" as="font" href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap" rel="stylesheet">
+    <script rel="preload" as="script" src="https://code.jquery.com/jquery-3.6.0.js"></script>
 
     <title>Методичне об'єднання викладачів іноземних мов закладів вищої та фахової передвищої освіти Вінницької області</title>
 </head>
@@ -103,7 +103,7 @@
             </div>
             <div class="slider_div slider_12">
                 <p>За участю викладачів заклідів вищої освіти було проведено робочу зустріч з метою обговорення переваг інтерактивної освіти</p>
-                <video id="video" src="/img/news/video.mp4" controls></video>
+                <video id="video" src="/img/news/video.mp4" controls preload="metadata"></video>
             </div>
         </div>
 
@@ -199,9 +199,9 @@
         </div>
     </div>
 
-    <script type="text/javascript" src="/slick/slick.js"></script>
-    <script src="/js/slider.js"></script>
-    <script src="/js/document_styles.js"></script>
+    <script rel="preload" as="script" type="text/javascript" src="/slick/slick.js"></script>
+    <script rel="preload" as="script" src="/js/slider.js"></script>
+    <script rel="preload" as="script" src="/js/document_styles.js"></script>
 
 </body>
 </html>
