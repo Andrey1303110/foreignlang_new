@@ -10,7 +10,7 @@ $(document).ready(function(){
         $('#main_bg').css("filter", "opacity(.075)");
     });
     function changeBG() {
-        let bg = ["english.jpg", "germany.jpg", "italy.jpg", "spain.jpg"];
+        let bg = ["english.webp", "germany.webp", "italy.webp", "spain.webp"];
         let i = Math.floor(Math.random() * 4);
         $('#main_bg').css("background-image", "url(/img/bg/" + bg[i] + ")");
     }

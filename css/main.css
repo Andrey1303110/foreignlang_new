@@ -102,7 +102,7 @@ a {
           filter: opacity(0);
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
-  background-image: url(/img/bg/english.jpg);
+  background-image: url(/img/bg/english.webp);
 }
 
 .head_div {
@@ -161,7 +161,7 @@ a {
 }
 
 .head_block:nth-child(1) .block_name .for_bg {
-  background-image: url(../img/events.jpg);
+  background-image: url(../img/events.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50% 0%;
@@ -184,7 +184,7 @@ a {
 }
 
 .head_block:nth-child(2) .block_name .for_bg {
-  background-image: url(../img/news.jpg);
+  background-image: url(../img/news.webp);
   background-size: 120%;
   background-repeat: no-repeat;
   background-position: center;
@@ -199,7 +199,7 @@ a {
 }
 
 .head_block:nth-child(3) .block_name .for_bg {
-  background-image: url(../img/staff1.jpg);
+  background-image: url(../img/staff1.webp);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0%;
@@ -210,7 +210,7 @@ a {
 }
 
 .head_block:nth-child(4) .block_name .for_bg {
-  background-image: url(../img/name.jpg);
+  background-image: url(../img/name.webp);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
@@ -221,7 +221,7 @@ a {
 }
 
 .head_block:nth-child(5) .block_name .for_bg {
-  background-image: url(../img/contacts.png);
+  background-image: url(../img/contacts.webp);
   background-size: 110%;
   background-repeat: no-repeat;
   background-position: 50%;
@@ -236,7 +236,7 @@ a {
 }
 
 .head_block:nth-child(6) .block_name .for_bg {
-  background-image: url(../img/experience.jpg);
+  background-image: url(../img/experience.webp);
   background-size: 105%;
   background-repeat: no-repeat;
   background-position: center;
@@ -253,7 +253,7 @@ a {
 }
 
 .head_block:nth-child(7) .block_name .for_bg {
-  background-image: url(../img/documents.png);
+  background-image: url(../img/documents.webp);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: 50% 5%;
