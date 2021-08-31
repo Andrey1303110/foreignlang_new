@@ -10,16 +10,12 @@ $(document).ready(function(){
         $('#main_bg').css("filter", "opacity(.075)");
     });
     function changeBG() {
-        if (window.pageYOffset >= window.innerHeight) {
-            let bg = ["english.jpg", "germany.jpg", "italy.jpg", "spain.jpg"];
-            let i = Math.floor(Math.random() * 4);
-            $('#main_bg').css("filter", "opacity(0)");
-            $('#main_bg').css("background-image", "url(/img/bg/" + bg[i] + ")");
-            $('#main_bg').css("filter", "opacity(.075)");
-        }
+        let bg = ["english.jpg", "germany.jpg", "italy.jpg", "spain.jpg"];
+        let i = Math.floor(Math.random() * 4);
+        $('#main_bg').css("background-image", "url(/img/bg/" + bg[i] + ")");
     }
-    setInterval(changeBG, 10000);
     changeBG();
+    setInterval(changeBG, 10000);
 
     $(window).scroll(function(){
         if (window.pageYOffset < window.innerHeight) {
