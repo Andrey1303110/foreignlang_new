@@ -13,7 +13,7 @@
     min-height: 150px;
     min-width: 200px;
     padding: 5px;
-    font-size: 1.35em;
+    font-size: 1.5em;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 5px;
@@ -23,6 +23,10 @@
     align-items: center;
     border: 5px solid #F6F6F6;
     cursor: pointer;
+    h1 {
+        font-size: 1em;
+        font-weight: 400;
+    }
     .block_name:hover p {
         opacity: 0;
     }

@@ -128,7 +128,7 @@ a {
   min-height: 150px;
   min-width: 200px;
   padding: 5px;
-  font-size: 1.35em;
+  font-size: 1.5em;
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 5px;
@@ -145,6 +145,11 @@ a {
           align-items: center;
   border: 5px solid #F6F6F6;
   cursor: pointer;
+}
+
+.head_block h1 {
+  font-size: 1em;
+  font-weight: 400;
 }
 
 .head_block .block_name:hover p {
