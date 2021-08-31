@@ -100,8 +100,9 @@ a {
   background-position: center;
   -webkit-filter: opacity(0);
           filter: opacity(0);
-  -webkit-transition: all .5s ease-in-out;
-  transition: all .5s ease-in-out;
+  -webkit-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+  background-image: url(/img/bg/english.jpg);
 }
 
 .head_div {
@@ -219,13 +220,9 @@ a {
   background-size: 110%;
   background-repeat: no-repeat;
   background-position: 50%;
-  -webkit-transition: .25s ease-in-out;
-  transition: .25s ease-in-out;
 }
 
 .head_block:nth-child(5) .block_name .for_bg:hover {
-  -webkit-transition: 1s ease-in-out;
-  transition: 1s ease-in-out;
   background-size: 70%;
 }
 
@@ -273,8 +270,8 @@ a {
 .block_name .for_bg {
   width: 100%;
   height: 100%;
-  -webkit-filter: grayscale(0.75) opacity(0.25);
-          filter: grayscale(0.75) opacity(0.25);
+  -webkit-filter: grayscale(0.8) opacity(0.45);
+          filter: grayscale(0.8) opacity(0.45);
   -webkit-transition: all .35s ease-in-out;
   transition: all .35s ease-in-out;
 }

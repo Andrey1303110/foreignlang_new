@@ -198,82 +198,9 @@
         </div>
     </div>
 
-
     <script type="text/javascript" src="/slick/slick.js"></script>
-    <script>
-        $(document).ready(function(){
-            $('.slider_news').slick({
-                dots: true,
-                infinite: true,
-                speed: 300,
-                arrows: false,
-                slidesToShow: 3,
-                slider: [
-                    {
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 3,
-                        slidesToScroll: 3,
-                        infinite: true,
-                        dots: true
-                    }
-                    },
-                    {
-                    breakpoint: 600,
-                    settings: {
-                        slidesToShow: 2,
-                        slidesToScroll: 2
-                    }
-                    },
-                    {
-                    breakpoint: 480,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1
-                    }
-                    }
-                    // You can unslick at a given breakpoint now by adding:
-                    // settings: "unslick"
-                    // instead of a settings object
-                ]
-            });
-            let normalWidth = $(".slider_11").css("width");
-            $(".slider_12 video").css("width", normalWidth);
-            $(".slider_12 video").css("transform", "translateY(-50%)");
-
-            $('.head_div').hover(function(){
-                $('#main_bg').css("filter", "opacity(0)");
-            });
-            $('.body_div').hover(function(){
-                $('#main_bg').css("filter", "opacity(.075)");
-            });
-            function changeBG() {
-                let bg = ["english.jpg", "germany.jpg", "italy.jpg", "spain.jpg"];
-                let i = Math.floor(Math.random() * 4);
-                $('#main_bg').css("filter", "opacity(0)");
-                $('#main_bg').css("background-image", "url(/img/bg/" + bg[i] + ")");
-                $('#main_bg').css("filter", "opacity(.075)");
-            }
-            changeBG();
-            setInterval(changeBG, 10000);
-        });
-
-        $(".contact_icons").mouseenter(function(){
-            this.src=this.src.replace("png","gif");
-        })
-        $(".contact_icons").mouseleave(function(){
-            this.src=this.src.replace("gif","png");
-        })
-    </script>
-
-    <script>
-        $(".docx").each(function(){
-            this.download = this.children[0].innerText + ".docx";
-        });
-        $(".adobe").each(function(){
-            this.download = this.children[0].innerText + ".pdf";
-        });
-    </script>
+    <script src="/js/slider.js"></script>
+    <script src="/js/document_styles.js"></script>
 
 </body>
 </html>

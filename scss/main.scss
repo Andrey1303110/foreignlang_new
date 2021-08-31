@@ -96,7 +96,8 @@ a {
   background-size: contain;
   background-position: center;
   filter: opacity(0);
-  transition: all .5s ease-in-out;
+  transition: all 1s ease-in-out;
+  background-image: url(/img/bg/english.jpg);
 }
 
 @import "_header";
