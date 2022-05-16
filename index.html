@@ -80,6 +80,12 @@
         </div>
     </div>
 
+    <div class="body_div" id="events">
+        <p class="title_block">Події</p>
+        <div class="slider_events">
+        </div>
+    </div>
+
     <div class="body_div" id="experince">
         <p class="title_block">Досвід</p>
         <a class="docx" href="/docs/experience/Довідка_про_вивчення_перспективного_педагогічного_досвіду_роботи.docx"
@@ -244,6 +250,22 @@
             if (i == 12) {
                 div.append(video);
             }
+        }
+
+        for (let i = 1; i <= 4; i++) {
+            let elem = document.querySelector('.slider_events');
+            let video = document.createElement('video');
+            let div = document.createElement('div');
+            div.classList.add('slider_div');
+            elem.append(div);
+            let p = document.createElement('p');
+            video.id = 'video';
+            video.src = `/img/news/video_${i}.mp4`;
+            video.controls = "controls";
+            video.preload = "metadata";
+            p.innerText = "Методична майстерня викладача іноземних мов";
+            div.append(p);
+            div.append(video);
         }
     </script>
     <script type="text/javascript" src="/slick/slick.js"></script>

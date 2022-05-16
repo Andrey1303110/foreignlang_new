@@ -1,7 +1,7 @@
 $(document).ready(function(){
     let normalWidth = $(".slider_11").css("width");
-    $(".slider_12 video").css("width", normalWidth);
-    $(".slider_12 video").css("transform", "translateY(-50%)");
+    $(".slider_div video").css("width", normalWidth);
+    $(".slider_div video").css("transform", "translateY(-50%)");
 
     $('.head_div').hover(function(){
         $('#main_bg').css("filter", "opacity(0)");

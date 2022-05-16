@@ -540,6 +540,42 @@ a {
           justify-content: space-evenly;
 }
 
+#events .slider_events .slider_div {
+  height: 300px;
+}
+
+#events .slider_events .slider_div p {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: lighter;
+  -webkit-transform: translateY(-10em);
+          transform: translateY(-10em);
+  line-height: 1.5em;
+  padding: 15px;
+}
+
+.slick-track {
+  min-height: 600px;
+  padding-top: 12em;
+}
+
+.slick-slide {
+  margin: 1.5em;
+}
+
+.slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
 #experince {
   width: 100%;
   min-height: 500px;
@@ -745,7 +781,7 @@ a {
 }
 
 #contacts .up_block {
-  margin-top: 5%;
+  margin: 5% auto 80px;
   font-size: 1.5em;
 }
 

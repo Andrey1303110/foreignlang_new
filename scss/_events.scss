@@ -1,0 +1,30 @@
+#events {
+    .slider_events {
+      .slider_div {
+        height: 300px;
+        p {
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: lighter;
+            transform: translateY(-10em);
+            line-height: 1.5em;
+            padding: 15px;
+          }
+      }
+    }
+}
+
+.slick-track {
+    min-height: 600px;
+    padding-top: 12em;
+  }
+  
+  .slick-slide {
+    margin: 1.5em;
+  }
+  
+  .slick-dots {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
