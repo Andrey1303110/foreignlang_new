@@ -501,14 +501,14 @@ a {
   }
 }
 
-#events .slider_news .slider_div, #events .slider_news2 .slider_div {
+#news .slider_news .slider_div, #news .slider_news2 .slider_div {
   height: 300px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-#events .slider_news .slider_div p, #events .slider_news2 .slider_div p {
+#news .slider_news .slider_div p, #news .slider_news2 .slider_div p {
   text-align: center;
   font-size: 1.2em;
   font-weight: lighter;
